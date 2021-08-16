@@ -14,7 +14,7 @@ headers = {
     'x-rapidapi-host': "google-translate1.p.rapidapi.com"
     }
 
-payload['q'] = input("Type what you want translated: ")
+payload['q'] = input("Type what you want translated to Marathi: ")
 
 response = requests.request("POST", url, data=payload, headers=headers)
 
